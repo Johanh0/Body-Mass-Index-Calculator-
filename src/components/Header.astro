@@ -1,7 +1,17 @@
 ---
-
+import styles from "../styles";
 ---
 
 <header>
-  <h1>Hello World</h1>
+  <nav
+    class={`${styles.padding} fixed top-0 flex justify-between items-center`}
+  >
+    <div>
+      <img src="../../public/logo.svg" alt="" />
+    </div>
+    <div class="w-fit h-full flex flex-col gap-2">
+      <div class="w-[30px] h-[2px] bg-black"></div>
+      <div class="w-[30px] h-[2px] bg-black"></div>
+    </div>
+  </nav>
 </header>
